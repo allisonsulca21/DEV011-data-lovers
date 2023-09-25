@@ -1,5 +1,7 @@
 body{
     background-image: url(img-extra/FondoPokeData.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 img{
     width: 50%;
