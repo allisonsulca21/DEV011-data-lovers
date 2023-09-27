@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <title>PokeData [Data Lovers] </title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,12 +12,22 @@
     <header>
       <img src="img-extra/PokeDataTitle.png" alt="PokeData">
       <h1> Descubre tus Pokemones favs! </h1>
-
-      <li>
-        <ul id="root"> </ul>
-      </li>
+      <div id="filterDiv">
+        <p> Filtrar por </p> <p> Ordenar por </p>
+        <button id="buttonstyle" data-testid="root"> Limpiar </button>
+      </div>
+  
     </header>
-    <button data-testid="root"> Limpiar </button>
+
+    <main>
+        <section id="root"> 
+
+        </section>
+    </main>
+
+    <footer> 
+      <p class="footStyles"> Made by: Luisa Castro & Allison Sulca </p> <!-- añadí un class para estilos * 18:27pm -->
+    </footer>
     <script src="main.js" type="module"></script>
   </body>
 </html>
