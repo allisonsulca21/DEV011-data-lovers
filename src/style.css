@@ -3,15 +3,16 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-img {
+.imgTitle {
     width: 45%;
+    height: auto;
     display: block;
     margin: auto;
 }
 h1 {
     text-align: center;
     font-family: 'Croissant One', cursive;
-    font-size: 2vw; /*cambié a vh (viewport height) para que sea responsive*/
+    font-size: 2vw; /*cambié a vh (viewport weight) para que sea responsive*/
     color: rgb(41, 37, 37);
     margin: 2px; /*cambié de 0px a 2px*/
 }
@@ -42,6 +43,10 @@ li {
     background:#FFCB05;  /* var(--Amarillo-Pokemon-100, #FFCB05); */
     box-shadow: 5px 3px 3px rgba(134, 131, 131, 0.774); /* sombra */
     margin: 2%;
+}
+img {
+    width: 141px;
+    height: 141px;
 }
 .img {
     display: flex;
