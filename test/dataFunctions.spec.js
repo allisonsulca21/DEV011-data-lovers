@@ -3,6 +3,8 @@ import { data as fakeData } from './data.js';
 
 console.log(fakeData);
 
+document.body.innerHTML
+
 describe('example', () => {
 
   it('returns `example`', () => {

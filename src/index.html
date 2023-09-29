@@ -7,13 +7,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Gaegu:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <img class="imgTitle" src="img-extra/PokeDataTitle.png" alt="PokeData">
       <h1> Descubre tus Pokemones favs! </h1>
       <div id="filterDiv">
-        <p> Filtrar por </p> <p> Ordenar por </p>
+        <p> Filtrar por </p> 
+        <select name="select">
+          <option value="Top10" selected> Top 10 </option>
+          <option value="Tipo"> Tipo </option>
+          <option value="Value3"> Value3 </option>
+        </select>
+        <p> Ordenar por </p>
+        <select name="select">
+          <option value="Debilidad" selected> Por debilidad </option>
+          <option value="SaludMayor"> Puntaje de salud mayor </option>
+        </select>
+        <p> Orden </p>
+        <select name="select">
+          <option value="Ascendente-Descendente"> Ascendente-Descendente </option>
+          <option value="Descendente-Ascendente" selected> Descendente-Ascendente </option>
+        </select>
         <button id="buttonstyle" data-testid="root"> Limpiar </button>
       </div>
   
