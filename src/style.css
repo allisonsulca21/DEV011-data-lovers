@@ -15,8 +15,10 @@ h1 {
     /* font-family: 'Croissant One', cursive; */
     font-family: 'Gaegu', cursive;
     font-size: 2.3vw; /*cambié a vh (viewport weight) para que sea responsive*/
+    font-weight: bolder;
     color: rgb(41, 37, 37);
     margin: 2px; /*cambié de 0px a 2px*/
+    padding-bottom: 8px;
 }
 #filterDiv {
     background-color: rgb(59, 194, 59);
@@ -28,7 +30,7 @@ h1 {
     /* justify-content: space-between; */
     /* display: inline-block; */
 }
-p {
+label {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -80,20 +82,23 @@ ul {
     padding-left: 52px; /* cambié de estilo 18:13pm  */
     align-items: baseline; /* cambié de estilo 18:13pm  */
 }
-footer { /* añadí footer styles */
-    font-display: center;
-    font-family: 'Croissant One', cursive;
-    text-align: center;
+footer{
+    background-color: #3466AF;
+    background-size: contain;
+    margin: 0px;
 }
 .footStyles {  /* añadí footer styles */
-    font-display: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    font-weight: normal;
+    /*nuevos estilos al lunes 2*/
+    margin: 0px;
+    padding: 5%;
 }
-button{
+button {
     margin-left: 3%;
 }
-#buttonstyle{ /*añadí estilos a el botón*/
+#buttonstyle { /*añadí estilos a el botón*/
     padding: 1%;
     padding-left: 2%;
     padding-right: 2%;
@@ -101,4 +106,15 @@ button{
     border-radius: 10px;
     color: rgb(41, 37, 37);
     font-weight: bold;
+}
+select {
+    margin-left: 1%;
+}
+
+@media screen {
+    
+}
+
+.type{
+    background-color: pink;
 }

@@ -1,9 +1,9 @@
 import { example, anotherExample } from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
-console.log(fakeData);
+//console.log(fakeData);
 
-document.body.innerHTML
+//document.body.innerHTML
 
 describe('example', () => {
 
