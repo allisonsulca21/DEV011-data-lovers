@@ -29,4 +29,17 @@ selectElement.addEventListener("change", (event) => {
     const filteredCards = renderItems(filteredData);
     root.appendChild(filteredCards);
   }
-})
+});
+
+// const cleanSelection = () => {
+//   for (let i = valueSelected.type.allCards; i >= 0; i--) {
+//      valueSelected.remove(i);
+//   }
+// }
+
+const cleanButton = document.getElementById('buttonstyle');
+
+cleanButton.addEventListener("click", () => {
+  root.innerHTML = "";
+  root.appendChild(allCards);
+});
