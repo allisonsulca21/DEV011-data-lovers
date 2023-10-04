@@ -11,9 +11,4 @@ export const filterData = (data, filterBy, value) => {
     
   return filter;
 };
-// console.log(filtrarPorTipo);
 
-// export function filtrarPorTipo(data) {
-//   return data.filter(element => element.type);
-// }
-// export { filtrarPorTipo };

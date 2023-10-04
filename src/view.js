@@ -1,4 +1,3 @@
-
 export const renderItems = (data) => {
   const ul = document.createElement('ul')
   ul.classList.add('boxCard');
