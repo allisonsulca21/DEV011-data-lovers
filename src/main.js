@@ -41,5 +41,6 @@ const cleanButton = document.getElementById('buttonstyle');
 
 cleanButton.addEventListener("click", () => {
   root.innerHTML = "";
+  // const allCards = renderItems(data.pokemon);
   root.appendChild(allCards);
 });

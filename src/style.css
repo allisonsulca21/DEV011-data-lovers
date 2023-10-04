@@ -47,11 +47,6 @@ label {
     box-shadow: 5px 3px 3px rgba(134, 131, 131, 0.774); 
     margin: 2%;
 }
-/* .individualCard {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-} */
 img {
     width: 141px;
     height: 141px;
@@ -182,8 +177,5 @@ button {
       justify-content: center;
       display: flex;
       align-items: center;
-    }
-    table {
-      width: 70%;
     }
 }
