@@ -169,10 +169,9 @@ La aplicación debe permitir a la usuaria seleccionar la opción "puntaje de sal
 - Haber terminado la historia de usuario 4
 - Se modificó y probó la función `sortData(data, sortBy, sortOrder)` en el archivo `src/dataFuctions.js` para que 
   la data filtrada se ordene por puntaje de salud o por puntaje de ataque, pues la forma de acceder a estas características en la data es diferente, y se debe plantear la función teniendo en cuenta que el parámetro "sortBy" puede tomar tambien estos valores. La función debe devolver una copia del arreglo recibido con los pokemones del tipo escogido por la usuaria, pero ordenados de forma descendente o ascendente por alguna de estas características.
-- Se planteó el evento que capture la interacción de la usuaria con los elementos <select> y su respectivos 
-  valores, los cuales se utilizan como argumentos para llamar a la función `filterData(data, filterBy, value)` y a la función `sortData(data, sortBy, sortOrder)`. De esta forma se obtine el arreglo de los pokemones filtrados por tipo y ordenados por cualquiera de las tres caracteristicas establecidas, en orden descendente o ascendente.
-- Se pinta la data filtrada y ordenada llamando la función `renderItems(data)`y con el arreglo obtenido en el 
-  punto anterior como argumento.  
+- Se planteó el evento que capture la interacción de la usuaria con los elementos 
+  'select' y su respectivos valores, los cuales se utilizan como argumentos para llamar a la función `filterData(data, filterBy, value)` y a la función `sortData(data, sortBy, sortOrder)`. De esta forma se obtine el arreglo de los pokemones filtrados por tipo y ordenados por cualquiera de las tres caracteristicas establecidas, en orden descendente o ascendente.
+- Se pinta la data filtrada y ordenada llamando la función `renderItems(data)`y con el arreglo obtenido en el punto anterior como argumento.  
 
 ### Historia de usuario 6: 
 Yo como <<usuaria/interesada>>
