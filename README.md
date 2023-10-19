@@ -35,7 +35,7 @@ usuarias, al lado derecho.
 
 Bienvenido a nuestro sitio web, creado para las fanáticas de Pokémon Go. Aquí encontrarás una amplia colección de Pokémon, con herramientas de filtrado y clasificación para personalizar tu búsqueda. Puedes filtrar por tipo, ordenar por características importantes en una batalla y obtener información valiosa. Además, puedes realizar búsquedas adicionales sin recargar la página. Nuestra plataforma es fácil de usar y accesible desde dispositivos móviles y computadoras. ¡Explora el mundo Pokémon con comodidad y precisión en nuestra página web!
 
-![pokemon-wall](src/img-extra/POKEMON%20GO%20PORTADA.png)
+![pokemon-data](src/img-extra/pokedata.png)
 
 ## 3. Objetivo
 
